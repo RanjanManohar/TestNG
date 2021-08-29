@@ -33,6 +33,7 @@ public class JsonResponseTester {
 		String PersonWhoPosted = (String) postObj.get("nameOfPersonWhoPosted");
 		System.out.println(PersonWhoPosted);
 		Assert.assertTrue(PersonWhoPosted.contains("Jane Doe"));
+		System.out.println("This is inside a branch");
 
 	}
 	
