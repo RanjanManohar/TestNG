@@ -32,7 +32,7 @@ public class JsonResponseTester {
 		JSONObject postObj = (JSONObject) posts.get(0);
 		String PersonWhoPosted = (String) postObj.get("nameOfPersonWhoPosted");
 		System.out.println(PersonWhoPosted);
-		Assert.assertTrue(PersonWhoPosted.contains("Jane Doe"));
+		Assert.assertTrue(PersonWhoPosted.contains("Jane david"));
 
 	}
 	
